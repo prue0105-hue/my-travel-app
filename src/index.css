@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* 在這裡定義你的動森風格色票 */
+@theme {
+  --color-ac-beige: #F7F4EB;
+  --color-ac-green: #7BA05B;
+  --color-ac-brown: #8B5A2B;
+  --color-ac-shadow: #E0E5D5;
+  
+  --radius-ac: 24px;
+  
+  --shadow-soft-ac: 4px 4px 0px 0px #E0E5D5;
+}
+
+/* 應用到全域 */
+@layer base {
+  body {
+    @apply bg-ac-beige text-ac-brown;
+    margin: 0;
+    font-family: sans-serif;
+  }
+}
